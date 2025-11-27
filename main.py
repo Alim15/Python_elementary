@@ -5,9 +5,32 @@
 # Входные данные: Вводится целое число.
 # Выходные данные: Выведите ответ на задачу так, как показано в примере
 
-n = int(input())
-t = n + 1
-a = n - 1
+# n = int(input())
+# t = n + 1
+# a = n - 1
+#
+# print("The next number for the number" + str(n) + "is" + str(t))
+# print("The previous number the number" + str(n) + "is" + str(a))
 
-print("The next number for the number" + str(n) + "is" + str(t))
-print("The previous number the number" + str(n) + "is" + str(a))
+
+# Задача 11: Если первое число больше второго, выведите 1.
+# Если второе число больше первого, выведите 2. Иначе выведите 0.
+
+# Пример:
+# Входные данные
+# 175
+# 174
+# Выходные данные
+# 1
+
+n1 = int(input())
+n2 = int(input())
+
+if (n1 > n2):
+    print(1)
+
+elif (n1 < n2):
+    print(2)
+
+else:
+    print(0)
